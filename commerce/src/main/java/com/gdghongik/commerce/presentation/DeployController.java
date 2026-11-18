@@ -8,6 +8,6 @@ public class DeployController {
 
     @GetMapping("/deploy-check")
     public String deployCheck() {
-        return "수하 누나 사랑해";
+        return "Hello, Backend! v2";
     }
 }
